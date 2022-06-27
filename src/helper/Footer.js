@@ -5,14 +5,14 @@ import Newsletter from "./Newsletter";
 
 const Footer = () => (
   <div
-    className="w-full relative z-10 flex justify-start items-center flex-col black pt-0 "
+    className="w-screen relative z-10 flex justify-start items-center flex-col black pt-0 "
     id="login"
   >
     <FooterOverlay />
     <Newsletter />
 
-    <div className="w-full flex justify-between items-start mt-20 text-white px-8">
-      <div className="flex-1 m-4 flex justify-center items-center flex-col ">
+    <div className="w-screen mt-20 text-white px-8 block md:flex items-center justify-center ">
+      <div className="m-4 flex justify-start items-center flex-col ">
         <h1>Contact Us</h1>
         <p>Rose Hall Montego Bay,</p>
         <p>St.James, Jamaica</p>
@@ -34,7 +34,7 @@ const Footer = () => (
         </div>
       </div>
 
-      <div className="flex-1 m-4 flex justify-center items-center flex-col">
+      <div className="m-4 flex justify-center items-center flex-col">
         <h1>Working Hours</h1>
         <p>Monday-Friday:</p>
         <p>08:00 am - 12:00 am</p>
@@ -43,8 +43,8 @@ const Footer = () => (
       </div>
     </div>
 
-    <div className="footer__copyright">
-      <p>2021 Ricky's. All Rights reserved.</p>
+    <div className="text-white mb-4">
+      <p>2022 Love Jewellery. All Rights reserved.</p>
     </div>
   </div>
 );

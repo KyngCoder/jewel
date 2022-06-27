@@ -9,7 +9,7 @@ const Showcase = () => {
     return (
       <div className="app__video ">
         <video
-        className="w-full h-full bg-cover"
+        className="w-screen h-screen bg-cover"
           ref={vidRef}
           src={display}
           type="video/mp4"

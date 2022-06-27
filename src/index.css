@@ -48,3 +48,9 @@
 .back{
     background:#DCCA87;
 }
+
+.hover:hover {
+    transform: scale(1.09);
+    margin: 1rem;
+    transition: 500ms;
+  }
