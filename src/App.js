@@ -1,17 +1,22 @@
 import Navbar from "./component/Navbar";
-import Showcase from "./component/Showcase";
+
 import Footer from "./helper/Footer";
+import Display from "./page/Display";
 import HomePage from "./page/HomePage";
-import Selection from "./page/Selection";
+import {BrowserRouter, Routes,Route} from 'react-router-dom'
 
 function App() {
   return (
     <div className="black overflow-hidden">
-      <Navbar />
-      <HomePage />
-      <Selection />
-      <Showcase />
-      <Footer />
+    <BrowserRouter>
+    <Navbar />
+    
+      <Routes>
+      <Route path="/" exact element={<HomePage />} />
+        <Route path="/display" exact element={<Display />} />
+      </Routes>
+    </BrowserRouter>
+     <Footer />
     </div>
   );
 }

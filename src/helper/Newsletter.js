@@ -1,7 +1,7 @@
 import React from "react";
 
 const Newsletter = () => (
-  <div className="py-2 px-4 w-4/5  text-white border-2  border-yellow-200">
+  <div className="py-2 px-4 w-4/5  text-white border-2  border-yellow-200 mt-8">
     <div className="text-center">
       <h2 className="text-lg">Newsletter</h2>
       <h1 className="font text-6xl primary-color py-4">Subscribe To Our <br /> Newsletter</h1>
